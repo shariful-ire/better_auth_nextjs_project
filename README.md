@@ -22,7 +22,20 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 ---
 
-## Better Auth
+## 🔐 Better Auth Setup (Next.js + MongoDB)
+### 🚀 Installation
+npm install better-auth
+
+### ⚙️ Setup Steps
+1. Create a .env file in the root directory
+2. Add your secret key in .env
+3. Set base URL for local development
+4. BETTER_AUTH_URL=http://localhost:3000
+5. Create Better Auth instance
+👉 src/lib/auth.js
 ---
-### Install: npm install better-auth
----
+
+### Configure database connection
+6. Install MongoDB adapter
+7. npm install @better-auth/mongodb-adapter
+Connect MongoDB and complete adapter setup
